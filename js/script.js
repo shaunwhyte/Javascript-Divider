@@ -12,7 +12,7 @@ document.getElementById('submitButton').onclick = function(){
 	  }else{
 		  
 		num2 = parseFloat(num2);
-		result = parseFloat( num1 * (num2 ** -1)).toFixed(3);
+		result = parseFloat( num1 * (num2 ** -1)).toFixed(3); //Algebra, anything to the power of -1 is equal 1/that thing
 	  }
 	  
 	  document.getElementById('result').value = result;
