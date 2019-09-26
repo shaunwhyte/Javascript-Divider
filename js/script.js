@@ -7,7 +7,7 @@ document.getElementById('submitButton').onclick = function(){
 	  console.log(lastChar);
 	  let result = '';
 	  if(lastChar == '6'){
-			result =  (a + b); 
+			result =  (num1 + parseFloat(num2)); 
 	  }else if(lastChar == '2'){
 			result = "ERROR"; 
 	  }else{
